@@ -12,10 +12,10 @@
 
 .insidecontainer{
     width: 80%;
-    height: 99%;
-    background-color: white;
+    height: 95%;
     margin: auto;
-    /* margin-bottom: 0px; */
+   
+    
 
 }
 
@@ -156,6 +156,18 @@ h1{
     top: 500px;
     border-bottom: solid #4EE1A0 2px;
 }
+.contactme2{
+    height: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.28571px;
+    color: #FFFFFF;
+    top: 500px;
+    border-bottom: solid #4EE1A0 2px;
+}
 .oval{
     position: absolute;
     left: -15%;
@@ -197,4 +209,96 @@ h1{
     font-size: 18px;
     line-height: 28px;
     color: #D9D9D9;
+}
+.projectDiv{
+    width: 100%;
+    height: 200px;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectp{
+
+    width: 334px;
+    height: 88px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+
+}
+.lastmainDiv{
+    width: 100%;
+    height: 1700px;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rectangledivs{
+    width: 560px;
+    height: 480px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divforpic{
+    width: 100%;
+    height: 400px;
+    background-color: #151515;
+    overflow: hidden;
+}
+.modernartgallery{
+    width: 130%;
+    height: 100%;
+    margin-left: -80px;
+}
+#cssspan{
+    margin-left: 18px;
+}
+.suratebissataurebi{
+   
+    width: 100%;
+    height: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.suratebismeoresataurebi{
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9D9D9;
+}
+#javascriptspan{
+    margin-left: 18px;
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9D9D9;
+}
+#headerdivID{
+    background-color: #151515;
+    border-top: 1px solid white;
+}
+#headerdivID1{
+    background-color: #151515;
+
+}
+#insidefirstdivID{
+    border-top: 1px solid white;
 }
