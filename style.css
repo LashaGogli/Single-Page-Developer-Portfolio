@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
 
 
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     height: 3197px;
     margin: 0 auto;
     background-color: #151515;
-    /* padding-top: 141px; */
+
 }
 
-.insidecontainer{
+.insidecontainer {
     width: 80%;
     height: 95%;
     margin: auto;
-   
-    
+
+
 
 }
 
-.upperDiv{
+.upperDiv {
     width: 100%;
     height: 700px;
     background-color: #151515;
-    border-bottom: solid white;
+    border-bottom: solid 1px white;
     position: relative;
-   
+
 
 }
-.headerDiv{
+
+.headerDiv {
     width: 500px;
     height: 141px;
     background-color: #242424;
@@ -36,14 +37,16 @@
     justify-content: space-around;
     align-items: center;
 }
-.firstdiv{
+
+.firstdiv {
     max-width: 1440px;
     width: 100%;
     height: 141px;
     background-color: #151515;
     margin: 0 auto;
 }
-.insidefirstdiv{
+
+.insidefirstdiv {
     width: 80%;
     height: 100%;
     background-color: #151515;
@@ -52,7 +55,8 @@
     justify-content: space-between;
     align-items: center;
 }
-h1{
+
+h1 {
     width: 172px;
     height: 32px;
 
@@ -63,29 +67,33 @@ h1{
     line-height: 32px;
     color: white;
 }
-.ragacDiv{
+
+.ragacDiv {
     width: 60%;
     height: 100%;
     background-color: #242424;
 }
-.imgDiv{
+
+.imgDiv {
     width: 500px;
     height: 600px;
     background-color: #242424;
     position: absolute;
     right: 0;
 }
-.chemisurati{
+
+.chemisurati {
     width: 100%;
     height: 100%;
     position: absolute;
-    
+
 }
-.nicetomeetyou{
+
+.nicetomeetyou {
     position: absolute;
     top: 50px;
     width: 820px;
-    height: 88px;   
+    height: 88px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
@@ -94,42 +102,45 @@ h1{
     color: white;
     letter-spacing: 0px;
 }
-.vector{
+
+.vector {
     position: absolute;
     top: 126px;
 }
-.imspan{
+
+.imspan {
     position: absolute;
     top: 140px;
     width: 820px;
-    height: 88px;   
+    height: 88px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 88px;
     color: white;
-    letter-spacing: 0.4px; 
+
 }
-.lashaspan{
+
+.lashaspan {
     position: absolute;
     top: 140px;
     left: 150px;
     width: 590px;
-    height: 100px;   
+    height: 100px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 88px;
     color: white;
-    letter-spacing: 0.4px; 
     border-bottom: solid #4EE1A0 5px;
-   
-    
-    
+
+
+
 }
-.textP{
+
+.textP {
     width: 445px;
     height: 84px;
     position: absolute;
@@ -142,7 +153,8 @@ h1{
     color: #D9D9D9;
     top: 330px;
 }
-.contactme{
+
+.contactme {
     position: absolute;
     width: 120px;
     height: 32px;
@@ -156,7 +168,8 @@ h1{
     top: 500px;
     border-bottom: solid #4EE1A0 2px;
 }
-.contactme2{
+
+.contactme2 {
     height: 32px;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -168,12 +181,14 @@ h1{
     top: 500px;
     border-bottom: solid #4EE1A0 2px;
 }
-.oval{
+
+.oval {
     position: absolute;
     left: -15%;
     top: 400px;
 }
-.middleDiv{
+
+.middleDiv {
     width: 100%;
     height: 450px;
     background-color: #151515;
@@ -183,12 +198,14 @@ h1{
     padding-top: 70px;
 
 }
-.middleinsideDivs{
+
+.middleinsideDivs {
     width: 300px;
     height: 180px;
     background-color: #151515;
 }
-.insidemiddledivsP{
+
+.insidemiddledivsP {
     width: 124px;
     height: 56px;
     font-family: 'Space Grotesk';
@@ -200,7 +217,8 @@ h1{
     color: #FFFFFF;
     padding-bottom: 70px;
 }
-.secondinsidedivsP{
+
+.secondinsidedivsP {
 
     height: 28px;
     font-family: 'Space Grotesk';
@@ -210,7 +228,8 @@ h1{
     line-height: 28px;
     color: #D9D9D9;
 }
-.projectDiv{
+
+.projectDiv {
     width: 100%;
     height: 200px;
     background-color: #151515;
@@ -218,7 +237,8 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-.projectp{
+
+.projectp {
 
     width: 334px;
     height: 88px;
@@ -231,7 +251,8 @@ h1{
     color: #FFFFFF;
 
 }
-.lastmainDiv{
+
+.lastmainDiv {
     width: 100%;
     height: 1700px;
     background-color: #151515;
@@ -239,7 +260,8 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.rectangledivs{
+
+.rectangledivs {
     width: 560px;
     height: 480px;
     background-color: #151515;
@@ -247,22 +269,26 @@ h1{
     flex-direction: column;
     justify-content: space-between;
 }
-.divforpic{
+
+.divforpic {
     width: 100%;
     height: 400px;
     background-color: #151515;
     overflow: hidden;
 }
-.modernartgallery{
+
+.modernartgallery {
     width: 130%;
     height: 100%;
     margin-left: -80px;
 }
-#cssspan{
+
+#cssspan {
     margin-left: 18px;
 }
-.suratebissataurebi{
-   
+
+.suratebissataurebi {
+
     width: 100%;
     height: 32px;
     font-family: 'Space Grotesk';
@@ -272,7 +298,8 @@ h1{
     line-height: 32px;
     color: #FFFFFF;
 }
-.suratebismeoresataurebi{
+
+.suratebismeoresataurebi {
     height: 28px;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -281,7 +308,8 @@ h1{
     line-height: 28px;
     color: #D9D9D9;
 }
-#javascriptspan{
+
+#javascriptspan {
     margin-left: 18px;
     height: 28px;
     font-family: 'Space Grotesk';
@@ -291,19 +319,22 @@ h1{
     line-height: 28px;
     color: #D9D9D9;
 }
-#headerdivID{
+
+#headerdivID {
     background-color: #151515;
     border-top: 1px solid white;
 }
-#headerdivID1{
+
+#headerdivID1 {
     background-color: #151515;
 
 }
-#insidefirstdivID{
+
+#insidefirstdivID {
     border-top: 1px solid white;
 }
 
-#artgalery6{
+#artgalery6 {
     margin-left: -87px;
 }
 
@@ -314,7 +345,7 @@ h1{
 
 
 
-.viewprojectP{
+.viewprojectP {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -331,7 +362,7 @@ h1{
     display: none;
 }
 
-.viewcode{
+.viewcode {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -348,7 +379,7 @@ h1{
     display: none;
 }
 
-.viewprojectP2{
+.viewprojectP2 {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -365,7 +396,7 @@ h1{
     display: none;
 }
 
-.viewcode2{
+.viewcode2 {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -381,7 +412,8 @@ h1{
     border-bottom: solid 2px #4EE1A0;
     display: none;
 }
-.viewprojectP3{
+
+.viewprojectP3 {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -398,7 +430,7 @@ h1{
     display: none;
 }
 
-.viewcode3{
+.viewcode3 {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -414,7 +446,8 @@ h1{
     border-bottom: solid 2px #4EE1A0;
     display: none;
 }
-.viewprojectP4{
+
+.viewprojectP4 {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -431,7 +464,7 @@ h1{
     display: none;
 }
 
-.viewcode4{
+.viewcode4 {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -447,7 +480,8 @@ h1{
     border-bottom: solid 2px #4EE1A0;
     display: none;
 }
-.viewprojectP5{
+
+.viewprojectP5 {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -464,7 +498,7 @@ h1{
     display: none;
 }
 
-.viewcode5{
+.viewcode5 {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -480,7 +514,8 @@ h1{
     border-bottom: solid 2px #4EE1A0;
     display: none;
 }
-.viewprojectP6{
+
+.viewprojectP6 {
     position: absolute;
     width: 140px;
     height: 26px;
@@ -497,7 +532,7 @@ h1{
     display: none;
 }
 
-.viewcode6{
+.viewcode6 {
     position: absolute;
     width: 103px;
     height: 26px;
@@ -512,4 +547,185 @@ h1{
     color: #FFFFFF;
     border-bottom: solid 2px #4EE1A0;
     display: none;
+}
+
+
+
+
+
+
+@media(max-width:769px) {
+
+
+    .container {
+        height: 2860px;
+
+    }
+
+    .insidecontainer {
+        width: 95%;
+
+
+    }
+
+    .upperDiv {
+        height: 550px;
+
+
+    }
+
+    .headerDiv {
+        background-color: #242424;
+        width: 322px;
+        padding-right: 25px;
+    }
+
+    .insidefirstdiv {
+        background-color: #151515;
+        width: 100%;
+
+
+    }
+
+    h1 {
+        margin-left: 18px;
+    }
+
+    .imgDiv {
+        width: 322px;
+        height: 480px;
+        margin-right: -19.5px;
+    }
+
+    .chemisurati {
+        width: 120%;
+        margin-left: 0x;
+        
+
+    }
+    .nicetomeetyou {
+        width: 400px;
+        font-size: 70px;
+        line-height: 1;
+
+    }
+
+    .vector {
+        margin-left: -175px;
+        opacity: 20%;
+    }
+
+    .imspan {
+
+        top: 110px;
+        left: 353px;
+
+        font-size: 70px;
+
+    }
+
+    .lashaspan {
+        top: 190px;
+        left: 0px;
+        font-size: 70px;
+        width: 520px;
+    }
+
+
+
+
+
+    .textP {
+        width: 420px;
+    }
+
+    .contactme {
+        top: 447px;
+        
+    }
+
+    .contactme2 {
+        display: none;
+    }
+
+    .oval {
+        display: none;
+    }
+
+    .middleDiv {
+        display: none;
+
+    }
+
+    .middleinsideDivs {
+        display: none;
+    }
+
+    .insidemiddledivsP {
+        display: none;
+    }
+
+    .secondinsidedivsP {
+
+        display: none;
+    }
+
+    .projectDiv {
+        display: none;
+    }
+
+    .projectp {
+        display: none;
+
+    }
+
+    .lastmainDiv {
+        display: none;
+    }
+
+    .rectangledivs {
+        display: none;
+    }
+
+    .divforpic {
+        display: none;
+    }
+
+    .modernartgallery {
+        display: none;
+    }
+
+    #cssspan {
+        display: none;
+    }
+
+    .suratebissataurebi {
+
+        display: none;
+    }
+
+    .suratebismeoresataurebi {
+        display: none;
+    }
+
+    #javascriptspan {
+        display: none;
+    }
+
+    #headerdivID {
+        display: none;
+    }
+
+    #headerdivID1 {
+        display: none;
+
+    }
+
+    #insidefirstdivID {
+        display: none;
+    }
+
+    #artgalery6 {
+        display: none;
+    }
 }
