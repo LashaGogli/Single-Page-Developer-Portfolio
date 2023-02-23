@@ -111,7 +111,6 @@ h1 {
 .imspan {
     position: absolute;
     top: 140px;
-    width: 820px;
     height: 88px;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -263,7 +262,7 @@ h1 {
 
 .rectangledivs {
     width: 560px;
-    height: 480px;
+    height: 520px;
     background-color: #151515;
     display: flex;
     flex-direction: column;
@@ -338,6 +337,74 @@ h1 {
     margin-left: -87px;
 }
 
+.DivforActive1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.DivforActive2 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.DivforActive3 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.DivforActive4 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.DivforActive5 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.DivforActive6 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: none;
+}
+
+.viewprojectPP {
+    color: white;
+    display: inline-block;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.28571px;
+    color: #FFFFFF;
+    border-bottom: solid 2px #4EE1A0;
+    gap: 50px;
+}
+
+.viewcodePP {
+    color: white;
+    display: inline-block;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.28571px;
+    color: #FFFFFF;
+    border-bottom: solid 2px #4EE1A0;
+}
 
 
 
@@ -559,19 +626,16 @@ h1 {
 
     .container {
         height: 2860px;
-
     }
 
     .insidecontainer {
         width: 95%;
-
+        border-radius: 1px solid white;
 
     }
 
     .upperDiv {
         height: 550px;
-
-
     }
 
     .headerDiv {
@@ -583,8 +647,6 @@ h1 {
     .insidefirstdiv {
         background-color: #151515;
         width: 100%;
-
-
     }
 
     h1 {
@@ -595,19 +657,18 @@ h1 {
         width: 322px;
         height: 480px;
         margin-right: -19.5px;
+        overflow: hidden;
     }
 
     .chemisurati {
         width: 120%;
         margin-left: 0x;
-        
-
     }
+
     .nicetomeetyou {
         width: 400px;
         font-size: 70px;
         line-height: 1;
-
     }
 
     .vector {
@@ -619,9 +680,7 @@ h1 {
 
         top: 110px;
         left: 353px;
-
         font-size: 70px;
-
     }
 
     .lashaspan {
@@ -631,101 +690,101 @@ h1 {
         width: 520px;
     }
 
-
-
-
-
     .textP {
         width: 420px;
     }
 
     .contactme {
         top: 447px;
-        
-    }
 
-    .contactme2 {
-        display: none;
     }
 
     .oval {
-        display: none;
+        position: absolute;
+        left: 80%;
+        top: 350px;
+
     }
 
     .middleDiv {
-        display: none;
+        height: 550px;
+
 
     }
-
-    .middleinsideDivs {
-        display: none;
-    }
-
-    .insidemiddledivsP {
-        display: none;
-    }
-
-    .secondinsidedivsP {
-
-        display: none;
-    }
-
-    .projectDiv {
-        display: none;
-    }
-
     .projectp {
-        display: none;
+        font-size: 72px;
+
 
     }
 
     .lastmainDiv {
-        display: none;
+        height: 50%;
+        border-bottom: 1px solid white;
+
     }
 
     .rectangledivs {
-        display: none;
+        width: 345px;
+        height: 380px;
+
+
     }
 
     .divforpic {
-        display: none;
-    }
-
-    .modernartgallery {
-        display: none;
-    }
-
-    #cssspan {
-        display: none;
-    }
-
-    .suratebissataurebi {
-
-        display: none;
-    }
-
-    .suratebismeoresataurebi {
-        display: none;
-    }
-
-    #javascriptspan {
-        display: none;
-    }
-
-    #headerdivID {
-        display: none;
-    }
-
-    #headerdivID1 {
-        display: none;
+        width: 345px;
+        height: 253px;
 
     }
 
     #insidefirstdivID {
-        display: none;
+        border: none;
     }
 
+    #headerdivID {
+        border-top: none;
+    }
+
+    .DivforActive1 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+
+    }
+
+    .DivforActive2 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .DivforActive3 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .DivforActive4 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .DivforActive5 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .DivforActive6 {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .modernartgallery{
+        margin-left: -50px;
+    }
     #artgalery6 {
-        display: none;
+        margin-left: -55px;
     }
 }
