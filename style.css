@@ -801,18 +801,13 @@ h1 {
     }
 
     .insidecontainer {
-        width: 100%;
+        width: 94%;
         height: 100%;
     }
 
     .upperDiv {
         background-color: #151515;
         height: 650px;
-        /* display: flex;
-        justify-content: space-around; */
-
-
-
     }
 
     .headerDiv {
@@ -858,11 +853,16 @@ h1 {
         top: 0;
         left: 50%;
         transform: translate(-50%, 0);
+        overflow: visible;
        
     }
 
     .chemisurati {
-        margin-left: -25px;
+        /* margin-left: -25px; */
+        width: 100%;
+        height: 90%;
+        margin-top: 25px;
+ 
         
     }
 
@@ -875,12 +875,12 @@ h1 {
         text-align: center;
         letter-spacing: -1.13636px;
         top: 270px;
-        left: 20px;
+        left: 10px;
        
     }
 
     .vector {
-        display: none;
+        margin-left: -250px;
     }
 
     .imspan {
@@ -890,7 +890,7 @@ h1 {
         text-align: center;
         letter-spacing: -1.13636px;
         top: 315px;
-        left: 20px;
+        left: 10px;
         
     }
 
@@ -901,7 +901,7 @@ h1 {
         text-align: center;
         letter-spacing: -1.13636px;
         top: 315px;
-        left: 80px;
+        left: 70px;
         width: 280px;
         height: 50px;
         
@@ -915,7 +915,7 @@ h1 {
         width: 343px;
         height: 78px;
         margin-top: 80px;
-        left: 20px;
+        left: 10px;
         
     }
 
@@ -938,25 +938,45 @@ h1 {
     }
 
     .oval {
-        display: none;
+
+        left: 220px;
+        top: 115px;
+       
     }
 
     .middleDiv {
-        display: none;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: space-around;
+        padding-top: 0px;
+        height: 800px;
+        border-bottom: 1px solid white;
 
     }
 
     .middleinsideDivs {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 87px;
+        justify-content: space-around;
+        align-content: space-around;
+        text-align: center;
     }
 
     .insidemiddledivsP {
-        display: none;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        padding-bottom: 0;
     }
 
     .secondinsidedivsP {
 
-        display: none;
+        font-size: 16px;
     }
 
     .projectDiv {
