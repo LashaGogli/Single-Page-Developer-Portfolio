@@ -630,12 +630,13 @@ h1 {
 
     .insidecontainer {
         width: 95%;
-        border-radius: 1px solid white;
+        /* border-radius: 1px solid white; */
 
     }
 
     .upperDiv {
         height: 550px;
+        margin-top: -1px;
     }
 
     .headerDiv {
@@ -711,6 +712,7 @@ h1 {
 
 
     }
+
     .projectp {
         font-size: 72px;
 
@@ -781,10 +783,239 @@ h1 {
         justify-content: space-between;
     }
 
-    .modernartgallery{
+    .modernartgallery {
         margin-left: -50px;
     }
+
     #artgalery6 {
         margin-left: -55px;
     }
+}
+
+
+
+
+@media(max-width:376px) {
+    .container {
+        height: 4351px;
+    }
+
+    .insidecontainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .upperDiv {
+        background-color: #151515;
+        height: 650px;
+        /* display: flex;
+        justify-content: space-around; */
+
+
+
+    }
+
+    .headerDiv {
+        background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
+        width: 50%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .firstdiv {
+        background-color: #151515;
+    }
+
+    .insidefirstdiv {
+        background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
+        width: 174px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-left: 0;
+        
+    }
+
+    .ragacDiv {
+        display: none;
+    }
+
+
+
+
+    .imgDiv {
+        position: center;
+        width: 174px;
+        height: 242px;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+       
+    }
+
+    .chemisurati {
+        margin-left: -25px;
+        
+    }
+
+    .nicetomeetyou {
+        width: 343px;
+        height: 80px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.13636px;
+        top: 270px;
+        left: 20px;
+       
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .imspan {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.13636px;
+        top: 315px;
+        left: 20px;
+        
+    }
+
+    .lashaspan {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.13636px;
+        top: 315px;
+        left: 80px;
+        width: 280px;
+        height: 50px;
+        
+    }
+
+    .textP {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        width: 343px;
+        height: 78px;
+        margin-top: 80px;
+        left: 20px;
+        
+    }
+
+    .contactme {
+        width: 120px;
+        height: 26px;
+        left: calc(50% - 117px/2 - 1.5px);
+        margin-top: 80px;
+        
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;  
+        letter-spacing: 2.28571px;
+    }
+
+    .contactme2 {
+        display: none;
+    }
+
+    .oval {
+        display: none;
+    }
+
+    .middleDiv {
+        display: none;
+
+    }
+
+    .middleinsideDivs {
+        display: none;
+    }
+
+    .insidemiddledivsP {
+        display: none;
+    }
+
+    .secondinsidedivsP {
+
+        display: none;
+    }
+
+    .projectDiv {
+        display: none;
+    }
+
+    .projectp {
+
+        display: none;
+    }
+
+    .lastmainDiv {
+        display: none;
+    }
+
+    .rectangledivs {
+        display: none;
+    }
+
+    .divforpic {
+        display: none;
+    }
+
+    .modernartgallery {
+        display: none;
+    }
+
+    #cssspan {
+        margin-left: 18px;
+    }
+
+    .suratebissataurebi {
+
+        display: none;
+    }
+
+    .suratebismeoresataurebi {
+        display: none;
+    }
+
+    #javascriptspan {
+        display: none;
+    }
+
+    #headerdivID {
+        display: none;
+    }
+
+    #headerdivID1 {
+        display: none;
+
+    }
+
+    #insidefirstdivID {
+        display: none;
+    }
+
+    #artgalery6 {
+        display: none;
+    }
+
 }
